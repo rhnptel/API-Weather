@@ -2,7 +2,7 @@ import requests
 import sqlite3 as lite
 import datetime
 from datetime import timedelta
-api_key = "f6d2f5228735fe79d5267c76df0ece79"
+
 url = 'https://api.forecast.io/forecast/' + api_key
 cities = {"Denver": '39.761850, -104.881105', "Chicago": '41.837551, -87.681844', "Miami": '25.775163, -80.208615', "Philadelphia": '40.009376, -75.133346', "Austin": '30.303936, -97.754355'}
 end_date = datetime.datetime.now()
